@@ -1,4 +1,4 @@
-# Maintainer: vanpersl <yeled.nova@gmail.com>
+# Maintainer: vanpersl
 pkgdesc="An attempt to bring Xware (Xunlei on routers) to desktop Linux."
 url="https://github.com/vanpersl/XwareDesktop/wiki"
 
