@@ -1,6 +1,6 @@
-# Maintainer: Xinkai <yeled.nova@gmail.com>
+# Maintainer: vanpersl <yeled.nova@gmail.com>
 pkgdesc="An attempt to bring Xware (Xunlei on routers) to desktop Linux."
-url="https://github.com/Xinkai/XwareDesktop/wiki"
+url="https://github.com/vanpersl/XwareDesktop/wiki"
 
 _commit=""
 _md5sums=""
@@ -28,7 +28,7 @@ else
 fi
 
 if [ ! -f .localdev ]; then
-    source=("${_commit}.tar.gz::https://github.com/Xinkai/XwareDesktop/archive/${_commit}.tar.gz")
+    source=("${_commit}.tar.gz::https://github.com/vanpersl/XwareDesktop/archive/${_commit}.tar.gz")
     md5sums=(${_md5sums})
     _nonlocal=1
 fi
