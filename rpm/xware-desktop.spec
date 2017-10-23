@@ -12,8 +12,8 @@ Summary:            An attempt to bring Xware (Xunlei on routers) to desktop Lin
 
 Group:              Applications/Internet
 License:            GPLv3
-URL:                https://github.com/Xinkai/XwareDesktop/wiki
-Source0:            https://github.com/Xinkai/XwareDesktop/archive/%{commit}/%{commit}.tar.gz
+URL:                https://github.com/vanpersl/XwareDesktop/wiki
+Source0:            https://github.com/vanpersl/XwareDesktop/archive/%{commit}/%{commit}.tar.gz
 
 BuildRequires:      python-qt5-devel
 BuildRequires:      glibc-devel(x86-32)
@@ -73,8 +73,8 @@ make DESTDIR=%{buildroot} install
 
     echo "欢迎使用Xware Desktop。"
     echo "设置方法和注意事项见项目主页。"
-    echo "项目主页 https://github.com/Xinkai/XwareDesktop/wiki"
-    echo "Github https://github.com/Xinkai/XwareDesktop"
+    echo "项目主页 https://github.com/vanpersl/XwareDesktop/wiki"
+    echo "Github https://github.com/vanpersl/XwareDesktop"
 
 %preun
     if [ $1 -eq 0 ]; then
