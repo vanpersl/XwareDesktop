@@ -1,6 +1,6 @@
 # xwared - Xware Desktop daemon
 
-author          "Xinkai Chen <yeled.nova@gmail.com>"
+author          "vanpersl"
 description     "An attempt to bring Xware (Xunlei on routers) to desktop Linux."
 
 start on startup
