@@ -1,5 +1,5 @@
 Source: xware-desktop
-Maintainer: Xinkai Chen <yeled.nova@gmail.com>
+Maintainer: vanpersl<vanpersl@gmail.com>
 Section: net
 Priority: optional
 Build-Depends:
@@ -16,9 +16,9 @@ Build-Depends:
  sed,
  findutils
 Standards-Version: 3.9.5
-Homepage: https://github.com/Xinkai/XwareDesktop/wiki
-Vcs-Git: git://gibhub.com/Xinkai/XwareDesktop.git
-Vcs-Browser: https://github.com/Xinkai/XwareDesktop
+Homepage: https://github.com/vanpersl/XwareDesktop/wiki
+Vcs-Git: git://gibhub.com/vanpersl/XwareDesktop.git
+Vcs-Browser: https://github.com/vanpersl/XwareDesktop
 
 Package: xware-desktop
 Architecture: i386 amd64
